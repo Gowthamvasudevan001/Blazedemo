@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="dep" value="Portland" />
+  <parameter name="dest" value="London" />
+  <parameter name="name" value="Gowtham" />
+  <parameter name="address" value="west street" />
+  <parameter name="city" value="kumbakonam" />
+  <parameter name="state" value="Tamilnadu" />
+  <parameter name="zipcode" value="612002" />
+  <parameter name="type" value="Diner's Club" />
+  <parameter name="number" value="1425369871425" />
+  <parameter name="month" value="07" />
+  <parameter name="year" value="2025" />
+  <parameter name="cardname" value="Gowtham" />
+  <classes>
+  <class name="org.test.Blazedem"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

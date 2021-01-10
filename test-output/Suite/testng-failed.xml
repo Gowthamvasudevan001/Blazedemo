@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="zipcode" value="612002"/>
+    <parameter name="number" value="1425369871425"/>
+    <parameter name="address" value="west street"/>
+    <parameter name="month" value="07"/>
+    <parameter name="city" value="kumbakonam"/>
+    <parameter name="year" value="2025"/>
+    <parameter name="cardname" value="Gowtham"/>
+    <parameter name="name" value="Gowtham"/>
+    <parameter name="state" value="Tamilnadu"/>
+    <parameter name="dest" value="London"/>
+    <parameter name="type" value="Diner&#039;s Club"/>
+    <parameter name="dep" value="Portland"/>
+    <classes>
+      <class name="org.test.Blazedem">
+        <methods>
+          <include name="la"/>
+          <include name="clo"/>
+          <include name="end"/>
+          <include name="start"/>
+          <include name="testcase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.test.Blazedem -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
